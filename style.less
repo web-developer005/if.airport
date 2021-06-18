@@ -367,3 +367,86 @@
   width: 100%;
   background: @red;
 }
+
+//!HOME PAGE
+.home__container {
+  .container;
+}
+.home__baner {
+  .baner;
+}
+.home_baner__column {
+  width: 50%;
+  height: 100%;
+  .mixin-flex(flex,column,flex-start,space-evenly);
+}
+.home_baner__text {
+  .baner__text;
+  width: 100%;
+  text-align: left;
+}
+.read_more {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 20px;
+background: white;
+margin-left: 30px;
+.mixin-flex(flex,row,center,center);
+}
+.home_baner__image {
+  width: 40%;
+}
+.home__h1 {
+  .content__h1;
+}
+.timetable {
+  width: 95%;
+  height: 70vh;
+  .mixin-flex(flex,column,center,space-evenly);
+}
+.timetable__button {
+  width: 250px;
+  height: 50px;
+  border: 2px solid @red;
+  border-radius: 20px;
+  font-size: 20px;
+  color:@red;
+  font-weight: bold;
+  .mixin-flex(flex,row-reverse,center,space-evenly);
+}
+table {
+  width: 100%;
+  height: 60vh;
+  font-size: 20px;
+}
+tr {
+  text-align: center;
+  height: 10%;
+}
+
+.ticket {
+  width: 200px;
+}
+.ticket:hover {
+  border: 2px solid @red;
+  border-radius: 20px;
+  color:@red;
+}
+.timetable__line {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 2px;
+  background: @red;
+}
+.info {
+  width: 100%;
+  height: 10vh;
+  background: @red;
+  .mixin-flex(flex,row,center,space-around);
+}
+.info__h1 {
+  .content__h1;
+  color: white;
+}

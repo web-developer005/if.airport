@@ -425,3 +425,126 @@
   width: 100%;
   background: #E84848;
 }
+.home__container {
+  width: 100%;
+  height: 100%;
+  font-family: 'Comfortaa', cursive;
+  /*MIXIN-flex*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home__baner {
+  width: 100%;
+  height: 50vh;
+  background: #E84848;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+  /*MIXIN-flex*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.home_baner__column {
+  width: 50%;
+  height: 100%;
+  /*MIXIN-flex*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+.home_baner__text {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  width: 40%;
+  margin-left: 30px;
+  width: 100%;
+  text-align: left;
+}
+.read_more {
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 20px;
+  background: white;
+  margin-left: 30px;
+  /*MIXIN-flex*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.home_baner__image {
+  width: 40%;
+}
+.home__h1 {
+  color: #E84848;
+  text-align: center;
+  padding: 20px;
+}
+.timetable {
+  width: 95%;
+  height: 70vh;
+  /*MIXIN-flex*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.timetable__button {
+  width: 250px;
+  height: 50px;
+  border: 2px solid #E84848;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #E84848;
+  font-weight: bold;
+  /*MIXIN-flex*/
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+table {
+  width: 100%;
+  height: 60vh;
+  font-size: 20px;
+}
+tr {
+  text-align: center;
+  height: 10%;
+}
+.ticket {
+  width: 200px;
+}
+.ticket:hover {
+  border: 2px solid #E84848;
+  border-radius: 20px;
+  color: #E84848;
+}
+.timetable__line {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 2px;
+  background: #E84848;
+}
+.info {
+  width: 100%;
+  height: 10vh;
+  background: #E84848;
+  /*MIXIN-flex*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.info__h1 {
+  color: #E84848;
+  text-align: center;
+  padding: 20px;
+  color: white;
+}
