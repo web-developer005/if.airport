@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
 }
 .container {
   width: 100%;
   height: 100%;
-  font-family: 'Comfortaa', cursive;
   /*MIXIN-flex*/
   display: flex;
   flex-direction: column;
@@ -255,7 +255,6 @@
 .tour__container {
   width: 100%;
   height: 100%;
-  font-family: 'Comfortaa', cursive;
   /*MIXIN-flex*/
   display: flex;
   flex-direction: column;
@@ -428,7 +427,6 @@
 .home__container {
   width: 100%;
   height: 100%;
-  font-family: 'Comfortaa', cursive;
   /*MIXIN-flex*/
   display: flex;
   flex-direction: column;
